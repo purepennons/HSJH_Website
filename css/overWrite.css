@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	font-family: "微軟正黑體", "新細明體", "標楷體", "細明體", "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ 	font-size: 16px;
+ 	padding: 45px;
+}
+em {
+	font-style: normal; 
+	color:blue;
+}
+strong { 
+	font-weight: bold; 
+	color:red; 
+}
+pre {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*頂端巡覽列標題*/
+.navbar .brand{    
+	float: right;
+}
+
+/*固定側邊巡覽列*/
+.bs-docs-sidenav.affix {
+/*	top: 10px;
+*/}
+
+/*側邊巡覽列*/
+.bs-docs-sidenav {
+	width: 150px;
+}
+
+.hero-unit {
+	padding: 10px;
+/*	position: relative;
+*/}
+
+.carousel-caption > p {
+	font-size: 10px;
+}
+
+.btn.btn-info.btn-large {
+	margin-top: 10px;
+/*	position: absolute;
+	right: 0;
+	left: 0;*/
+	
+
+}
+
+/*頂端巡覽列*/
+/*.navbar {
+    width: 80%;
+    margin: 0 auto;
+}*/
+
+/*側邊巡覽列li之連結*/
+.bs-docs-sidenav>li>a {
+/*	display: block;
+*//*	width: 190px \9;*/
+/*	margin: 0 0 0px;
+*/	padding: 8px 14px;
+	text-align: center;
+/*		border: 1px solid #e5e5e5;
+*/
+}
+
+/*側邊巡覽列背景*/
+.well {
+/*		background-image: url(jpeg.jpg);
+*/}
+
+
+
+
+
+/*.navbar .nav,
+.navbar .nav > li {
+  float:none;
+  display:inline-block;
+  *display:inline; 
+  *zoom:1; 
+  vertical-align: top;
+}
+/* ie7 fix 
+/* hasLayout ie7 trigger */
+
+/*.navbar-inner {
+  text-align:left;
+}*/
