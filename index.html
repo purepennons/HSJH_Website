@@ -11,9 +11,10 @@
     <!-- js引用 -->
     <script src="jQuery/js/jquery-1.10.2.min.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/action.js"></script>
 
 </head>
-<body>
+<body onload="indexCarouselRepeat()">
     <div class="navbar navbar-fixed-top"> <!--  使用 navbar-fixed-top 固定高度 -->
         <div class="navbar-inner">
             <a class="brand" href="#">府城和中，薪傳古風</a>
@@ -30,8 +31,7 @@
     </div> 
     <div class="container">
         <div class="row-fluid">
-            <div class="span1"></div>
-            <div id="indexCarousel" class="span10 hero-unit carousel slide">
+            <div id="indexCarousel" class="span12  carousel slide">
                 <ol class="carousel-indicators">
                     <li data-target="#indexCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#indexCarousel" data-slide-to="1"></li>
@@ -59,17 +59,37 @@
                     立即前往專題頁
                 </a> -->
             </div>
-            <div class="span1"></div>
         </div>
     </div>
     <div class="container">
         <div class="row-fluid">
-            <div class="span1"></div>
-            <div class="span10">
+            <div class="span12">
                 <hr>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span4" style="text-align:center">
+                <img src="img/example.jpg" class="img-circle" style="width:140px;height:140px;">
+            </div>
+            <div class="span4" style="text-align:center">
+                <img src="img/example.jpg" class="img-circle" style="width:140px;height:140px;"> 
+            </div>
+            <div class="span4" style="text-align:center">
+                <img src="img/example.jpg" class="img-circle" style="width:140px;height:140px;">
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row-fluid">
+            <hr>
+            <!-- <div class="span1"></div> -->
+            <div class="span12">
                 <p class="text-right">2014 史遊和順 使用<a target="_blank" href="http://getbootstrap.com">Bootstrap.</a>製作</p>
             </div>
-            <div class="span1"></div>
+            <!-- <div class="span1"></div> -->
         </div>
     </div>
 </body>

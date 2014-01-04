@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	font-family: "微軟正黑體", "新細明體", "標楷體", "細明體", "Helvetica Neue", Helvetica, Arial, sans-serif;  
  	font-size: 16px;
- 	padding: 45px;
+ 	padding: 40px;
 }
 em {
 	font-style: normal; 
@@ -28,7 +28,8 @@ pre {
 
 /*側邊巡覽列*/
 .bs-docs-sidenav {
-	width: 150px;
+	width: 15%;
+	margin-top: 80px;
 }
 
 .hero-unit {
