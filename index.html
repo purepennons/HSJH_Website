@@ -8,10 +8,7 @@
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/overWrite.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.css">
-    <!-- js引用 -->
-    <script src="jQuery/js/jquery-1.10.2.min.js"></script>
-    <script src="bootstrap/js/bootstrap.js"></script>
-    <script src="js/action.js"></script>
+
 
 </head>
 <body onload="indexCarouselRepeat()">
@@ -70,15 +67,19 @@
     </div>
     <div class="container">
         <div class="row-fluid">
-            <div class="span4" style="text-align:center">
-                <img src="img/example.jpg" class="img-circle" style="width:140px;height:140px;">
-            </div>
-            <div class="span4" style="text-align:center">
-                <img src="img/example.jpg" class="img-circle" style="width:140px;height:140px;"> 
-            </div>
-            <div class="span4" style="text-align:center">
-                <img src="img/example.jpg" class="img-circle" style="width:140px;height:140px;">
-            </div>
+            <ul class="thumbnails">
+                <li class="span4" style="text-align:center">
+                    <a href="#">
+                        <img class="img-circle" title="這是圖片註解" alt="" src="img/example.jpg" style="width:140px;height:140px;">
+                    </a>
+                </li>
+                <li class="span4" style="text-align:center">
+                    <img class="img-circle" title="這是圖片註解" alt="" src="img/example.jpg" style="width:140px;height:140px;">       
+                </li>
+                <li class="span4" style="text-align:center">
+                    <img class="img-circle" title="這是圖片註解" alt="" src="img/example.jpg" style="width:140px;height:140px;">
+                </li>
+            </ul>
         </div>
 
     </div>
@@ -92,5 +93,10 @@
             <!-- <div class="span1"></div> -->
         </div>
     </div>
+
+    <!-- js引用 -->
+    <script src="jQuery/js/jquery-1.10.2.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/action.js"></script>
 </body>
 </html>

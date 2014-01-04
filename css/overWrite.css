@@ -21,16 +21,6 @@ pre {
 	float: right;
 }
 
-/*固定側邊巡覽列*/
-.bs-docs-sidenav.affix {
-/*	top: 10px;
-*/}
-
-/*側邊巡覽列*/
-.bs-docs-sidenav {
-	width: 15%;
-	margin-top: 80px;
-}
 
 .hero-unit {
 	padding: 10px;
@@ -46,25 +36,14 @@ pre {
 /*	position: absolute;
 	right: 0;
 	left: 0;*/
-	
-
 }
 
-/*頂端巡覽列*/
-/*.navbar {
-    width: 80%;
-    margin: 0 auto;
-}*/
-
-/*側邊巡覽列li之連結*/
-.bs-docs-sidenav>li>a {
-/*	display: block;
-*//*	width: 190px \9;*/
-/*	margin: 0 0 0px;
-*/	padding: 8px 14px;
+.well.nav.nav-list >li{
 	text-align: center;
-/*		border: 1px solid #e5e5e5;
-*/
+}
+
+.well.nav.nav-list {
+	width:200px;	
 }
 
 /*側邊巡覽列背景*/
@@ -72,6 +51,9 @@ pre {
 /*		background-image: url(jpeg.jpg);
 */}
 
+img[alt] {
+	border: 3px solid white;
+}
 
 
 
