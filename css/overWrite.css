@@ -1,8 +1,13 @@
 body {
 	margin: 0;
-	font-family: "å¾®è»Ÿæ­£é»‘é«”", "æ–°ç´°æ˜Žé«”", "æ¨™æ¥·é«”", "ç´°æ˜Žé«”", "Helvetica Neue", Helvetica, Arial, sans-serif;  
+	font-family: "Î¢Ü›ÕýºÚów", "ÐÂ¼šÃ÷ów", "˜Ë¿¬ów", "¼šÃ÷ów", "Helvetica Neue", Helvetica, Arial, sans-serif;  
  	font-size: 16px;
  	padding: 40px;
+ 	background-image: url(../img/cis2.jpg);
+ 	background-repeat: repeat;
+ 	background-attachment: fixed;
+ 	background-size: 100px, 100px;
+ 	background-position: bottom, center;
 }
 em {
 	font-style: normal; 
@@ -16,21 +21,24 @@ pre {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/*é ‚ç«¯å·¡è¦½åˆ—æ¨™é¡Œ*/
+/*í”¶ËÑ²Ó[ÁÐ*/
+
 .navbar .brand{    
 	float: right;
 }
 
-
+/*Ó¢ÐÛ…^Óò*/
 .hero-unit {
 	padding: 10px;
 /*	position: relative;
 */}
 
+/*Ý†²¥Ð§¹û*/
 .carousel-caption > p {
 	font-size: 10px;
 }
 
+/*°´âo*/
 .btn.btn-info.btn-large {
 	margin-top: 10px;
 /*	position: absolute;
@@ -38,23 +46,50 @@ pre {
 	left: 0;*/
 }
 
+/*‚Èß…Ñ²Ó[ÁÐ*/
 .well.nav.nav-list >li{
 	text-align: left;
 }
 
 .well.nav.nav-list {
-	width:200px;	
+	width:200px;
 }
 
-/*å´é‚Šå·¡è¦½åˆ—èƒŒæ™¯*/
+.well.nav.nav-list > li > a {
+	color: #b89c3b;	
+}
+
+.well.nav.nav-list > li > a:hover {
+	color: #917b2f;	
+}
+
+.well.nav.nav-list > .active > a {
+	background-color: #b89c3b;
+	color: white;
+}
+
+.well.nav.nav-list > .active > a:hover {
+	background-color: #b89c3b;
+	color: white;
+}
+
+
+
+
+/*‚Èß…Ñ²Ó[ÁÐ±³¾°*/
 .well {
 /*		background-image: url(jpeg.jpg);
 */}
 
+/*ˆDÆ¬*/
 img[alt] {
 	border: 3px solid white;
 }
 
+.img-circle.indexImage {
+	width:140px;
+	height:140px;
+}
 
 
 
