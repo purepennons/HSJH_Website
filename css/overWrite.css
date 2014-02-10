@@ -24,6 +24,7 @@ pre {
 
 h4 {
 	color: #b89c3b;
+	font-size: 22px;
 }
 
 table, th, td {
@@ -35,10 +36,9 @@ tr:first-child {
 	text-align: center;
 }
 
-td:nth-child(odd) {
-	width: 20%;
+/*td:nth-child(odd) {
 	text-align: center;
-}
+}*/
 
 /*í”¶ËÑ²Ó[ÁÐ*/
 
