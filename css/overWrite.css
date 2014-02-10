@@ -3,11 +3,11 @@ body {
 	font-family: "微軟正黑體", "新細明體", "標楷體", "細明體", "Helvetica Neue", Helvetica, Arial, sans-serif;  
  	font-size: 16px;
  	padding: 40px;
- 	background-image: url(../img/cis2.jpg);
+/* 	background-image: url(../img/cis2.jpg);
  	background-repeat: repeat;
  	background-attachment: fixed;
  	background-size: 100px, 100px;
- 	background-position: bottom, center;
+ 	background-position: bottom, center;*/
 }
 em {
 	font-style: normal; 
@@ -19,6 +19,25 @@ strong {
 }
 pre {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+h4 {
+	color: #b89c3b;
+}
+
+table, th, td {
+	border:1px solid black;
+	border-collapse:collapse;
+}
+
+tr:first-child {
+	text-align: center;
+}
+
+td:nth-child(odd) {
+	width: 20%;
+	text-align: center;
 }
 
 /*頂端巡覽列*/
@@ -48,15 +67,19 @@ pre {
 
 /*側邊巡覽列*/
 .well.nav.nav-list >li{
-	text-align: left;
+	text-align: center;
 }
 
 .well.nav.nav-list {
 	width:200px;
+	padding: 0 0;
 }
 
 .well.nav.nav-list > li > a {
 	color: #b89c3b;	
+/*	border: 1px solid #e5e5e5;
+*/	margin:0px 0px -1px;
+	padding: 8px 14px;
 }
 
 .well.nav.nav-list > li > a:hover {
@@ -86,10 +109,26 @@ img[alt] {
 	border: 3px solid white;
 }
 
+.indexThumbanails {
+	background-image: url(0);
+	background-repeat: no-repeat;
+	background-color: white;
+}
+
 .img-circle.indexImage {
 	width:140px;
 	height:140px;
+	opacity: 0.5;
+	filter:alpha(opacity=50); /*for ie7 */
 }
+
+.img-circle.indexImage:hover {
+	opacity: 1.0;
+	filter:alpha(opacity=100); /*for ie7 */
+}
+
+
+
 
 
 
