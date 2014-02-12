@@ -9,6 +9,7 @@ body {
  	background-size: 100px, 100px;
  	background-position: bottom, center;*/
 }
+
 em {
 	font-style: normal; 
 	color:blue;
@@ -127,12 +128,9 @@ img[alt] {
 	filter:alpha(opacity=100); /*for ie7 */
 }
 
-/*#member-photos {
-	position: fixed;
+.text-area {
+	display: none;
 }
-*/
-
-
 
 
 
