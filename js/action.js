@@ -7,6 +7,7 @@ function indexCarouselRepeat(){  //首頁輪播設定
 
 function onClickMemberPhoto(numOfMember) {
 	var colors = ['#FF0000', '#FF7519', '#FFFF19', '#66FF66', '#6699FF', '#8533D6']; 
+	var backgroundColors = [[255, 0, 0], [255, 117, 25], [255, 255, 25], [102, 255, 102], [102, 153, 255], [133, 51, 214]];
 	for(i=1;i<=6;i++){
 		var imgTagId = 'member' + i;    //初始化大頭貼與心得狀態
 		var sectionText = 'text-' + i;
@@ -19,6 +20,10 @@ function onClickMemberPhoto(numOfMember) {
 	document.getElementById(imgTagId).style.opacity = 1.0;
 	document.getElementById(imgTagId).style.filter = 'alpha(Opacity=100)';  //for ie 7
 	document.getElementById(sectionText).style.borderColor = colors[numOfMember-1];
+	document.getElementById(sectionText).style.backgroundColor = 'rgba(' + [backgroundColors[numOfMember-1][0],
+																		    backgroundColors[numOfMember-1][1], 
+																		    backgroundColors[numOfMember-1][2], 
+																		    0.3].join(',') + ')';
 	document.getElementById(sectionText).style.display = 'block';
 	document.getElementById('p').title = numOfMember;
 }

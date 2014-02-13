@@ -29,7 +29,7 @@ h3 {
 }
 
 h4 {
-	color: #b89c3b;
+	color: #339966;
 }
 
 table, th, td {
@@ -169,5 +169,9 @@ img[alt] {
 
 #member6 {
 	border:#8533D6 10px solid;
+}
+
+#text-1 {
+	background-color: rgba(255, 0, 0, 0.3);
 }
 
