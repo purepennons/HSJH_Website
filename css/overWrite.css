@@ -23,9 +23,13 @@ pre {
 	font-size: 16px;
 }
 
+h3 {
+	color: #b89c3b;
+	text-align: center;
+}
+
 h4 {
 	color: #b89c3b;
-	font-size: 22px;
 }
 
 table, th, td {
@@ -129,22 +133,41 @@ img[alt] {
 }
 
 .text-area {
+	text-align: left;
 	display: none;
+	border:#FF0000 10px solid;
+	border-radius: 10px;
+	padding: 20px;
+
 }
 
-
-
-/*.navbar .nav,
-.navbar .nav > li {
-  float:none;
-  display:inline-block;
-  *display:inline; 
-  *zoom:1; 
-  vertical-align: top;
+#text-1 {
+	display: block;
 }
-/* ie7 fix 
-/* hasLayout ie7 trigger */
 
-/*.navbar-inner {
-  text-align:left;
-}*/
+#member1 {
+	opacity: 1.0;
+	filter:alpha(opacity=100); /*for ie7 */
+	border:#FF0000 10px solid;
+}
+
+#member2 {
+	border:#FF7519 10px solid;
+}
+
+#member3 {
+	border:#FFFF19 10px solid;
+}
+
+#member4 {
+	border:#66FF66 10px solid;
+}
+
+#member5 {
+	border:#6699FF 10px solid;
+}
+
+#member6 {
+	border:#8533D6 10px solid;
+}
+
