@@ -32,18 +32,9 @@ h4 {
 	color: #339966;
 }
 
-table, th, td {
-	border:1px solid black;
-	border-collapse:collapse;
+th {
+	align: center;
 }
-
-tr:first-child {
-	text-align: center;
-}
-
-/*td:nth-child(odd) {
-	text-align: center;
-}*/
 
 /*í”¶ËÑ²Ó[ÁÐ*/
 
@@ -75,9 +66,23 @@ tr:first-child {
 	text-align: center;
 }
 
+.well.nav.nav-list > div > div > li{
+	text-align: center;
+	border: none;
+}
+
+.well.nav.nav-list > div > div > a{
+	text-decoration: none;
+	border-bottom: 	1px solid #e5e5e5;
+	color: #b89c3b;
+	font-weight: bold;
+}
+
+
 .well.nav.nav-list {
 	width:200px;
 	padding: 0 0;
+	text-align: center;
 }
 
 .well.nav.nav-list > li > a {
@@ -87,8 +92,25 @@ tr:first-child {
 	padding: 8px 14px;
 }
 
+.well.nav.nav-list > div > div > li > a {
+	color: #b89c3b;	
+/*	border: 1px solid #e5e5e5;
+*/	margin:0px 0px -1px;
+	padding: 8px 14px;
+	text-decoration: none;
+}
+
+
 .well.nav.nav-list > li > a:hover {
 	color: #917b2f;	
+}
+
+.well.nav.nav-list > div > div > li:hover {
+	background-color: #eeeeee;
+}
+
+.well.nav.nav-list > div > div > li > a:hover {
+	color: #917b2f;
 }
 
 .well.nav.nav-list > .active > a {
@@ -96,8 +118,25 @@ tr:first-child {
 	color: white;
 }
 
+.well.nav.nav-list > div > div > .active {
+	background-color: #b89c3b;
+}
+
+.well.nav.nav-list > div > div > .active > a {
+	color: white;
+}
+
+
 .well.nav.nav-list > .active > a:hover {
 	background-color: #b89c3b;
+	color: white;
+}
+
+.well.nav.nav-list > div > div > .active:hover {
+	background-color: #b89c3b;
+}
+
+.well.nav.nav-list > div > div > .active > a:hover {
 	color: white;
 }
 
