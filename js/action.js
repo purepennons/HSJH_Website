@@ -6,7 +6,8 @@ function indexCarouselRepeat(){  //首頁輪播設定
 }
 
 $('.accordion-toggle').collapse({
-  		parent:true
+  		parent:true,
+  		toggle:true
 })
 //$('#collapseFour').collapse('show');
 
@@ -17,12 +18,10 @@ $('#sidebar-accordion').on('activate', function (e) {
 	var sValue = document.getElementById('s').title;
 	document.getElementById('s').title = someOfactiveNavBar;
 	if(sValue != someOfactiveNavBar){
-		for(i=1;i<5;i++){
-			$('#collapse-' + i).collapse('hide');
-		}
-		var collapseID = 'collapse-' + someOfactiveNavBar;	
-		$('#' + collapseID).collapse('show');
-	}		
+		$('#collapse-' + sValue).collapse('hide');
+	}
+	$('#collapse-' + someOfactiveNavBar).collapse('show');
+
 })
 
 function onClickMemberPhoto(numOfMember) {
