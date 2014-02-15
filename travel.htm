@@ -15,7 +15,7 @@
 
 
 </head>
-<body data-spy="scroll" data-target=".bs-docs-sidebar" data-offset="20">
+<body data-spy="scroll" data-target="#sidebar-accordion" data-offset="20">
     <div class="navbar navbar-fixed-top navbar-inverse"> <!--  使用 navbar-fixed-top 固定高度 -->
         <div class="navbar-inner">
             <a class="brand" href="index.htm">府城和中，薪傳古風</a>
@@ -39,7 +39,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="span3 bs-docs-sidebar">
+            <div class="span3 bs-docs-sidebar" id="sidebar-accordion">
 <!--                 <ul class="well nav nav-list" data-spy="affix" data-offset-top="10">
                     <li class="nav-header">史博之美</li>
                     <li class="active"><a href="#info">博館開館宣言</a></li>
@@ -63,50 +63,50 @@
                     <ul class="accordion well nav nav-list" data-spy="affix" data-offset-top="10" id="travel-accordion">
                         <div class="accordion-group">
                             <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#travel-accordion" href="#collapseOne">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#travel-accordion" href="#collapse-1">
                                     史博之美
                                 </a>
                             </div>
-                            <div id="collapseOne" class="accordion-body collapse in">
-                                <li class="active accordion-inner"><a href="#beautiful-1">博館開館宣言</a></li>
-                                <li class="accordion-inner"><a href="#beautiful-2">願景</a></li>
-                                <li class="accordion-inner"><a href="#beautiful-3">使命</a></li>
+                            <div id="collapse-1" class="accordion-body collapse in">
+                                <li class="active accordion-inner" value="1"><a href="#beautiful-1">博館開館宣言</a></li>
+                                <li class="accordion-inner" value="1"><a href="#beautiful-2">願景</a></li>
+                                <li class="accordion-inner" value="1"><a href="#beautiful-3">使命</a></li>
                             </div>
                         </div>
                         <div class="accordion-group">
                             <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#travel-accordion" href="#collapseTwo">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#travel-accordion" href="#collapse-2">
                                     展覽介紹
                                 </a>
                             </div>
-                            <div id="collapseTwo" class="accordion-body collapse">
-                                <li class="accordion-inner"><a href="#introduction-1">展示教育大樓</a></li>
-                                <li class="accordion-inner"><a href="#introduction-2">快樂萬花筒</a></li>
-                                <li class="accordion-inner"><a href="#introduction-3">鐵馬驛站</a></li>
+                            <div id="collapse-2" class="accordion-body collapse">
+                                <li class="accordion-inner" value="2"><a href="#introduction-1">展示教育大樓</a></li>
+                                <li class="accordion-inner" value="2"><a href="#introduction-2">快樂萬花筒</a></li>
+                                <li class="accordion-inner" value="2"><a href="#introduction-3">鐵馬驛站</a></li>
                             </div>
                         </div>
                         <div class="accordion-group">
                             <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#travel-accordion" href="#collapseThree"> 
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#travel-accordion" href="#collapse-3"> 
                                     建築特色
                                 </a>
                             </div>
-                            <div id="collapseThree" class="accordion-body collapse">
-                                <li class="accordion-inner"><a href="#building-1">雲天廣場舞台</a></li>
-                                <li class="accordion-inner"><a href="#building-2">光電雲牆</a></li>
-                                <li class="accordion-inner"><a href="#building-3">行政典藏大樓</a></li>
-                                <li class="accordion-inner"><a href="#building-4">展示教育大樓</a></li>
+                            <div id="collapse-3" class="accordion-body collapse">
+                                <li class="accordion-inner" value="3"><a href="#building-1">雲天廣場舞台</a></li>
+                                <li class="accordion-inner" value="3"><a href="#building-2">光電雲牆</a></li>
+                                <li class="accordion-inner" value="3"><a href="#building-3">行政典藏大樓</a></li>
+                                <li class="accordion-inner" value="3"><a href="#building-4">展示教育大樓</a></li>
                             </div>
                         </div>
                         <div class="accordion-group">
                             <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#travel-accordion" href="#collapseFour">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#travel-accordion" href="#collapse-4">
                                     其他
                                 </a>
                             </div>
-                            <div id="collapseFour" class="accordion-body collapse">
-                                <li class="accordion-inner"><a href="other-1">E化創新</a></li>
-                                <li class="accordion-inner"><a href="other-2">遊館須知</a></li>
+                            <div id="collapse-4" class="accordion-body collapse">
+                                <li class="accordion-inner" value="4"><a href="#other-1">E化創新</a></li>
+                                <li class="accordion-inner" value="4"><a href="#other-2">遊館須知</a></li>
                             </div>
                         </div>
                     </ul>
@@ -439,8 +439,10 @@
             </div>
         </div>
     </div>
+    <div id="s" title="1" style="display:none;"></div>  
     <!-- js引用 -->
     <script src="jQuery/js/jquery-1.10.2.min.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/action.js"></script>
 </body>
 </html>

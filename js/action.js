@@ -5,6 +5,26 @@ function indexCarouselRepeat(){  //首頁輪播設定
     })
 }
 
+$('.accordion-toggle').collapse({
+  		parent:true
+})
+//$('#collapseFour').collapse('show');
+
+
+$('#sidebar-accordion').on('activate', function (e) {
+	var activeNavBar = document.getElementsByClassName('active accordion-inner');
+	var someOfactiveNavBar = activeNavBar[0].value;
+	var sValue = document.getElementById('s').title;
+	document.getElementById('s').title = someOfactiveNavBar;
+	if(sValue != someOfactiveNavBar){
+		for(i=1;i<5;i++){
+			$('#collapse-' + i).collapse('hide');
+		}
+		var collapseID = 'collapse-' + someOfactiveNavBar;	
+		$('#' + collapseID).collapse('show');
+	}		
+})
+
 function onClickMemberPhoto(numOfMember) {
 	var colors = ['#FF0000', '#FF7519', '#FFFF19', '#66FF66', '#6699FF', '#8533D6']; 
 	var backgroundColors = [[255, 0, 0], [255, 117, 25], [255, 255, 25], [102, 255, 102], [102, 153, 255], [133, 51, 214]];
