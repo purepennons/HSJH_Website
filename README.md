@@ -13,3 +13,4 @@ This is a Website of HSJH
 7.圖片插入與縮圖
 8.字詞提示
 9.教育大樓section分頁
+10.字體統一
